@@ -1,8 +1,11 @@
 ---
-title: ""
+title: "WOEPS"
 output: 
   html_document:
     toc: false  
+    includes:
+      in_header: header.html
+    self_contained: false
 ---
 
 
@@ -105,6 +108,10 @@ a {
 a:hover {
     color: #FFAB91;               /* Light pastel coral */
     background-color: #FAE5E3;    /* Very light pink */
+}
+
+h1.title {
+  display: none;
 }
 
 
