@@ -1,13 +1,17 @@
 ---
 title: ""
-output: html_document
+output: 
+  html_document:
+    toc: false  
 ---
 
 
 ```{css, echo=FALSE}
-
-body {
-    background-color: #fffcf2;
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  /* Prevent horizontal scroll */
+  background-color: #FDEDEC !important;
 }
 
 .navbar {
@@ -17,45 +21,111 @@ body {
   justify-content: center;  /* Center horizontally */
   align-items: center;      /* Center vertically */
   height: 300px;            /* Adjust the height as needed for your content */
+  position: relative;       /* Allow it to scroll with the page */
+  width: 100%;              /* Ensure it spans the full width of its parent */
+  z-index: 1000;            /* Ensure it is above other content like the TOC */
+  box-sizing: border-box;   /* Include padding and border in element's width/height */
+  top: 0;                   /* Ensure it is at the very top of its container */
 }
 
 .navbar-brand {
   font-weight: bold;  
   line-height: 1.5;   
-  font-size: 30px;
-  color: #fffae9 !important; /* Text color set to white */
+  font-size: 25px;
+  color: #FDEDEC !important; /* Text color set to white */
   text-align: center;
   flex: none;
   text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
 }
 
-#TOC, #TOC ul, #TOC li {
-    color: #230556; /* Dark purple color for the TOC text */
-    background-color: #fffcf2 !important; /* Light purple background for the TOC, using !important to ensure override */
+#TOC {
+    color: #230556;               /* Dark purple color for the TOC text */
+    background-color: #FDEDEC !important; /* Light purple background for the TOC */
+    width: 50%;                   /* Set a width for the TOC */
+    padding: 10px;                /* Add padding to the TOC */
+    border: 1px solid #ccc;       /* Border around the TOC */
+    margin: 20px auto;            /* Center the TOC using auto margins */
+    text-align: left;             /* Align the text to the left inside the TOC */
+    border-radius: 10px;          /* Rounded corners for the TOC */
 }
 
-/* Additional styling for TOC links */
-#TOC a {
-    color: #230556; /* Ensuring the link colors are consistent */
+#TOC ul {
+    padding-left: 0;              /* Remove default padding from the list */
+    margin: 0;                    /* Remove default margins to clean up the layout */
+    background-color: #FDEDEC !important; /* Ensure background consistency */
 }
+
+#TOC li {
+    list-style-type: none;        /* Remove bullet points */
+    padding: 0px 0;               /* Reduce padding between items for closer spacing */
+    margin-left: 0;               /* Remove left margin */
+    font-size: 16px;              /* Set a readable font size */
+}
+
+#TOC a {
+    color: #C19A8E;               /* Dark purple color for the TOC text */
+    text-decoration: none;        /* Remove underlines from links */
+    background-color: #FDEDEC;    /* Match the background to the TOC */
+    display: block;               /* Make links fill the li element for easier clicking */
+    padding: 0px 0;               /* Padding to make links taller, easier to click, reduced vertical padding for tighter layout */
+}
+
+#TOC a:hover {
+    color: #FFAB91;               /* Light pastel coral for the hover text */
+    background-color: #FAE5E3;    /* Very light pink for the hover background */
+}
+
+#applyButton {
+    background-color: #FFAB91;  /* Light pastel coral */
+    border: none; 
+    color: #FDEDEC;  /* Light peach/pink */
+    padding: 15px 32px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    transition: background-color 0.3s, color 0.3s;  /* Smooth transition for hover effects */
+}
+
+#applyButton:hover {
+    background-color: #FAE5E3; /* Very light pink for the hover background */
+    color: #FFAB91;            /* Light pastel coral for the hover text */
+}
+
+/* Style for all links */
+a {
+    color: #C19A8E;               /* Soft terracotta */
+    text-decoration: none;        /* Remove underline */
+    transition: color 0.3s, background-color 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for all links */
+a:hover {
+    color: #FFAB91;               /* Light pastel coral */
+    background-color: #FAE5E3;    /* Very light pink */
+}
+
+
 ```
 
 <style>
 /* Center level 1 headings and change color */
 h1 {
   text-align: center;
-  color: #230556; 
+  color: #A76D60; 
 }
 
 h2, h3, h4, h5, h6 {
-  color: #230556; 
+  color: #A76D60; 
 }
 </style>
 
 
 <br><br>
 
-The BETA and University of Strasbourg are organising the annual workshop “The Organisation, Economics and Policy of Scientific Research” at the Pôle Européen de Gestion et d'Economie in Strasbourg.
+The **Bureau d'Economie Théorique et Appliquée (BETA)** and **University of Strasbourg** are organising the annual workshop “The Organisation, Economics and Policy of Scientific Research” at the Pôle Européen de Gestion et d'Economie in Strasbourg.
 
 <br><br>
 
@@ -66,34 +136,51 @@ The BETA and University of Strasbourg are organising the annual workshop “The 
 
 
 <div style="text-align: center;">
-
-<a href="" target=#fffcf2>
-    <button style="background-color: #230556; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 10px;">
+<a href="" style="text-decoration: none;">
+    <button id="applyButton">
         Apply Here
     </button>
 </a>
+
 
 contact us at: [woeps.contact@gmail.com](mailto:woeps.contact@gmail.com)
 </div>
 
 <br><br>
 
+<div id="TOC">
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#topics">Topics</a></li>
+    <li><a href="#submission-important-dates">Submission Important Dates</a></li>
+    <li><a href="#financial-support">Financial Support</a></li>
+    <li><a href="#awards">Awards</a></li>
+    <li><a href="#venue">Venue</a></li>
+    <li><a href="#scientific-committee">Scientific Committee</a></li>
+    <li><a href="#local-organising-committee">Local Organising Committee</a></li>
+  </ul>
+</div>
+
 ---
 
 <br><br>
 
 # **Overview**
-We aim to attract contributions from both junior and senior scholars on topics related to the organisation, economics, and policy of scientific research. A minimum number of slots are reserved for junior researchers (PhD students or postdoc scholars who obtained their PhD in 2021 or later).
+We aim to attract contributions from both junior and senior scholars on topics related to the organisation, economics, and policy of scientific research. 
+
+A minimum number of slots are reserved for junior researchers (PhD students or postdoc scholars who obtained their PhD in 2021 or later).
 <br><br>
 
 # **Topics**
 Contributions are invited on (but not limited to) one or more of the following topics:
+
 - Organisation of research activities in universities, PROs and private R&D labs
 - The evaluation of science policy
 - Science in the private sector and spillovers from scientific research
 - Role of individual researcher characteristics in scientific research
 - Science research networks and collaboration
 - Scientific careers and mobility
+
 <br><br>
 
 # **Submission Important dates**
@@ -104,15 +191,27 @@ Contributions are invited on (but not limited to) one or more of the following t
 
 <br><br>
 
-Up to 18 contributions will be selected by the scientific committee based on novelty, academic quality, and relevance. No review or comments will be offered to the authors to supplement the decision. All presentations will have a discussant.
+Up to 18 contributions will be selected by the scientific committee based on novelty, academic quality, and relevance. 
+
+No review or comments will be offered to the authors to supplement the decision. All presentations will have a discussant.
+
 <br><br>
 
 # **Financial Support**
-Participation in the workshop is free for authors of selected papers. We are offering a limited number of travel and accommodation support grants to junior scholars (PhD students or scholars who obtained their PhD in 2020 or later) without local funds. **To be considered for such grants please state your intention and your eligibility on the first page of your manuscript when submitting it.**
+
+Participation in the workshop is free for authors of selected papers.
+
+We are offering a limited number of travel and accommodation support grants to junior scholars (PhD students or scholars who obtained their PhD in 2020 or later) without local funds.
+
+**To be considered for such grants please state your intention and your eligibility on the first page of your manuscript when submitting it.**
+
 <br><br>
 
 # **Awards**
-**Best Junior Scholar Paper:** During the Workshop, a Special Mention in honor of Paul A. David will be awarded to the Best Junior Scholar Paper. Eligible papers are works of one or more junior scholars (PhD students or scholars under the age of 40), priority will be given to papers with no co-authorship by senior scholars. Authors wishing to participate in the competition for the Best Young Scholar Paper, please indicate your intention and confirm your eligibility by including this information on the first page of your manuscript when submitting it.
+
+**Best Junior Scholar Paper:** During the Workshop, a Special Mention in honor of Paul A. David will be awarded to the Best Junior Scholar Paper. Eligible papers are works of one or more junior scholars (PhD students or scholars under the age of 40), priority will be given to papers with no co-authorship by senior scholars. 
+
+Authors wishing to participate in the competition for the Best Young Scholar Paper, please indicate your intention and **confirm your eligibility by including this information on the first page of your manuscript when submitting it**.
 
 <br><br>
 
@@ -121,7 +220,8 @@ Participation in the workshop is free for authors of selected papers. We are off
 <br><br>
 
 # **Venue**
-The workshop will take place at the Pôle Européen de Gestion et d’Économie (PEGE), located at 61 Avenue de la Forêt-Noire, 67000 Strasbourg.
+
+The workshop will take place at the **Bureau d'Economie Théorique et Appliquée**, located at **61 Avenue de la Forêt-Noire, 67000 Strasbourg**.
 
 
 <div style="text-align: center;">
@@ -169,9 +269,8 @@ The workshop will take place at the Pôle Européen de Gestion et d’Économie 
 <br><br>
 
 <div style="text-align: center;">
-
-<a href="" target=#fffcf2>
-    <button style="background-color: #230556; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 10px;">
+<a href="" style="text-decoration: none;">
+    <button id="applyButton">
         Apply Here
     </button>
 </a>

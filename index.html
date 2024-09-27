@@ -13,7 +13,7 @@
 
 <title>index.knit</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
@@ -29,9 +29,6 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 
 <style type="text/css">
@@ -42,6 +39,7 @@
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
     </style>
+
 
 
 
@@ -71,6 +69,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -128,11 +129,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -161,8 +166,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -170,16 +175,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -209,75 +207,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-.tocify-subheader {
-  display: inline;
-}
-.tocify-subheader .tocify-item {
-  font-size: 0.95em;
-}
-
-</style>
-
-
 
 </head>
 
@@ -287,22 +216,12 @@ div.tocify {
 <div class="container-fluid main-container">
 
 
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
-
-
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -329,9 +248,11 @@ div.tocify {
 
 
 <style type="text/css">
-
-body {
-    background-color: #fffcf2;
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  /* Prevent horizontal scroll */
+  background-color: #FDEDEC !important;
 }
 
 .navbar {
@@ -341,60 +262,164 @@ body {
   justify-content: center;  /* Center horizontally */
   align-items: center;      /* Center vertically */
   height: 300px;            /* Adjust the height as needed for your content */
+  position: relative;       /* Allow it to scroll with the page */
+  width: 100%;              /* Ensure it spans the full width of its parent */
+  z-index: 1000;            /* Ensure it is above other content like the TOC */
+  box-sizing: border-box;   /* Include padding and border in element's width/height */
+  top: 0;                   /* Ensure it is at the very top of its container */
 }
 
 .navbar-brand {
   font-weight: bold;  
   line-height: 1.5;   
-  font-size: 30px;
-  color: #fffae9 !important; /* Text color set to white */
+  font-size: 25px;
+  color: #FDEDEC !important; /* Text color set to white */
   text-align: center;
   flex: none;
   text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
 }
 
-#TOC, #TOC ul, #TOC li {
-    color: #230556; /* Dark purple color for the TOC text */
-    background-color: #fffcf2 !important; /* Light purple background for the TOC, using !important to ensure override */
+#TOC {
+    color: #230556;               /* Dark purple color for the TOC text */
+    background-color: #FDEDEC !important; /* Light purple background for the TOC */
+    width: 50%;                   /* Set a width for the TOC */
+    padding: 10px;                /* Add padding to the TOC */
+    border: 1px solid #ccc;       /* Border around the TOC */
+    margin: 20px auto;            /* Center the TOC using auto margins */
+    text-align: left;             /* Align the text to the left inside the TOC */
+    border-radius: 10px;          /* Rounded corners for the TOC */
 }
 
-/* Additional styling for TOC links */
-#TOC a {
-    color: #230556; /* Ensuring the link colors are consistent */
+#TOC ul {
+    padding-left: 0;              /* Remove default padding from the list */
+    margin: 0;                    /* Remove default margins to clean up the layout */
+    background-color: #FDEDEC !important; /* Ensure background consistency */
 }
+
+#TOC li {
+    list-style-type: none;        /* Remove bullet points */
+    padding: 0px 0;               /* Reduce padding between items for closer spacing */
+    margin-left: 0;               /* Remove left margin */
+    font-size: 16px;              /* Set a readable font size */
+}
+
+#TOC a {
+    color: #C19A8E;               /* Dark purple color for the TOC text */
+    text-decoration: none;        /* Remove underlines from links */
+    background-color: #FDEDEC;    /* Match the background to the TOC */
+    display: block;               /* Make links fill the li element for easier clicking */
+    padding: 0px 0;               /* Padding to make links taller, easier to click, reduced vertical padding for tighter layout */
+}
+
+#TOC a:hover {
+    color: #FFAB91;               /* Light pastel coral for the hover text */
+    background-color: #FAE5E3;    /* Very light pink for the hover background */
+}
+
+#applyButton {
+    background-color: #FFAB91;  /* Light pastel coral */
+    border: none; 
+    color: #FDEDEC;  /* Light peach/pink */
+    padding: 15px 32px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    transition: background-color 0.3s, color 0.3s;  /* Smooth transition for hover effects */
+}
+
+#applyButton:hover {
+    background-color: #FAE5E3; /* Very light pink for the hover background */
+    color: #FFAB91;            /* Light pastel coral for the hover text */
+}
+
+/* Style for all links */
+a {
+    color: #C19A8E;               /* Soft terracotta */
+    text-decoration: none;        /* Remove underline */
+    transition: color 0.3s, background-color 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for all links */
+a:hover {
+    color: #FFAB91;               /* Light pastel coral */
+    background-color: #FAE5E3;    /* Very light pink */
+}
+
+
 </style>
 <style>
 /* Center level 1 headings and change color */
 h1 {
   text-align: center;
-  color: #230556; 
+  color: #A76D60; 
 }
 
 h2, h3, h4, h5, h6 {
-  color: #230556; 
+  color: #A76D60; 
 }
 </style>
 <p><br><br></p>
-<p>The BETA and University of Strasbourg are organising the annual workshop “The Organisation, Economics and Policy of Scientific Research” at the Pôle Européen de Gestion et d’Economie in Strasbourg.</p>
+<p>The <strong>Bureau d’Economie Théorique et Appliquée (BETA)</strong> and <strong>University of Strasbourg</strong> are organising the annual workshop “The Organisation, Economics and Policy of Scientific Research” at the Pôle Européen de Gestion et d’Economie in Strasbourg.</p>
 <p><br><br></p>
 <div style="text-align: center;">
 <p><strong>Date:</strong> 3-4 April 2025<br />
 <strong>Location:</strong> Strasbourg, France</p>
 </div>
 <div style="text-align: center;">
-<p><a href="" target=#fffcf2> <button style="background-color: #230556; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 10px;"> Apply Here </button> </a></p>
+<p><a href="" style="text-decoration: none;"> <button id="applyButton"> Apply Here </button> </a></p>
 <p>contact us at: <a href="mailto:woeps.contact@gmail.com">woeps.contact@gmail.com</a></p>
 </div>
 <p><br><br></p>
+<div id="TOC">
+<ul>
+<li>
+<a href="#overview">Overview</a>
+</li>
+<li>
+<a href="#topics">Topics</a>
+</li>
+<li>
+<a href="#submission-important-dates">Submission Important Dates</a>
+</li>
+<li>
+<a href="#financial-support">Financial Support</a>
+</li>
+<li>
+<a href="#awards">Awards</a>
+</li>
+<li>
+<a href="#venue">Venue</a>
+</li>
+<li>
+<a href="#scientific-committee">Scientific Committee</a>
+</li>
+<li>
+<a href="#local-organising-committee">Local Organising Committee</a>
+</li>
+</ul>
+</div>
 <hr />
 <p><br><br></p>
 <div id="overview" class="section level1">
 <h1><strong>Overview</strong></h1>
-<p>We aim to attract contributions from both junior and senior scholars on topics related to the organisation, economics, and policy of scientific research. A minimum number of slots are reserved for junior researchers (PhD students or postdoc scholars who obtained their PhD in 2021 or later). <br><br></p>
+<p>We aim to attract contributions from both junior and senior scholars on topics related to the organisation, economics, and policy of scientific research.</p>
+<p>A minimum number of slots are reserved for junior researchers (PhD students or postdoc scholars who obtained their PhD in 2021 or later). <br><br></p>
 </div>
 <div id="topics" class="section level1">
 <h1><strong>Topics</strong></h1>
-<p>Contributions are invited on (but not limited to) one or more of the following topics: - Organisation of research activities in universities, PROs and private R&amp;D labs - The evaluation of science policy - Science in the private sector and spillovers from scientific research - Role of individual researcher characteristics in scientific research - Science research networks and collaboration - Scientific careers and mobility <br><br></p>
+<p>Contributions are invited on (but not limited to) one or more of the following topics:</p>
+<ul>
+<li>Organisation of research activities in universities, PROs and private R&amp;D labs</li>
+<li>The evaluation of science policy</li>
+<li>Science in the private sector and spillovers from scientific research</li>
+<li>Role of individual researcher characteristics in scientific research</li>
+<li>Science research networks and collaboration</li>
+<li>Scientific careers and mobility</li>
+</ul>
+<p><br><br></p>
 </div>
 <div id="submission-important-dates" class="section level1">
 <h1><strong>Submission Important dates</strong></h1>
@@ -405,22 +430,28 @@ h2, h3, h4, h5, h6 {
 <li><strong>17th March 2025</strong>: Deadline for submission of full papers</li>
 </ul>
 <p><br><br></p>
-<p>Up to 18 contributions will be selected by the scientific committee based on novelty, academic quality, and relevance. No review or comments will be offered to the authors to supplement the decision. All presentations will have a discussant. <br><br></p>
+<p>Up to 18 contributions will be selected by the scientific committee based on novelty, academic quality, and relevance.</p>
+<p>No review or comments will be offered to the authors to supplement the decision. All presentations will have a discussant.</p>
+<p><br><br></p>
 </div>
 <div id="financial-support" class="section level1">
 <h1><strong>Financial Support</strong></h1>
-<p>Participation in the workshop is free for authors of selected papers. We are offering a limited number of travel and accommodation support grants to junior scholars (PhD students or scholars who obtained their PhD in 2020 or later) without local funds. <strong>To be considered for such grants please state your intention and your eligibility on the first page of your manuscript when submitting it.</strong> <br><br></p>
+<p>Participation in the workshop is free for authors of selected papers.</p>
+<p>We are offering a limited number of travel and accommodation support grants to junior scholars (PhD students or scholars who obtained their PhD in 2020 or later) without local funds.</p>
+<p><strong>To be considered for such grants please state your intention and your eligibility on the first page of your manuscript when submitting it.</strong></p>
+<p><br><br></p>
 </div>
 <div id="awards" class="section level1">
 <h1><strong>Awards</strong></h1>
-<p><strong>Best Junior Scholar Paper:</strong> During the Workshop, a Special Mention in honor of Paul A. David will be awarded to the Best Junior Scholar Paper. Eligible papers are works of one or more junior scholars (PhD students or scholars under the age of 40), priority will be given to papers with no co-authorship by senior scholars. Authors wishing to participate in the competition for the Best Young Scholar Paper, please indicate your intention and confirm your eligibility by including this information on the first page of your manuscript when submitting it.</p>
+<p><strong>Best Junior Scholar Paper:</strong> During the Workshop, a Special Mention in honor of Paul A. David will be awarded to the Best Junior Scholar Paper. Eligible papers are works of one or more junior scholars (PhD students or scholars under the age of 40), priority will be given to papers with no co-authorship by senior scholars.</p>
+<p>Authors wishing to participate in the competition for the Best Young Scholar Paper, please indicate your intention and <strong>confirm your eligibility by including this information on the first page of your manuscript when submitting it</strong>.</p>
 <p><br><br></p>
 <hr />
 <p><br><br></p>
 </div>
 <div id="venue" class="section level1">
 <h1><strong>Venue</strong></h1>
-<p>The workshop will take place at the Pôle Européen de Gestion et d’Économie (PEGE), located at 61 Avenue de la Forêt-Noire, 67000 Strasbourg.</p>
+<p>The workshop will take place at the <strong>Bureau d’Economie Théorique et Appliquée</strong>, located at <strong>61 Avenue de la Forêt-Noire, 67000 Strasbourg</strong>.</p>
 <div style="text-align: center;">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.4030502252085!2d7.773789400000001!3d48.5829811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c8e3638cdc5b%3A0x2f20a0b00a7ed8cc!2sP%C3%B4le%20europ%C3%A9en%20de%20gestion%20et%20d&#39;%C3%A9conomie!5e0!3m2!1sfr!2sfr!4v1727433618548!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
 </iframe>
@@ -467,15 +498,13 @@ h2, h3, h4, h5, h6 {
 <hr />
 <p><br><br></p>
 <div style="text-align: center;">
-<p><a href="" target=#fffcf2> <button style="background-color: #230556; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 10px;"> Apply Here </button> </a></p>
+<p><a href="" style="text-decoration: none;"> <button id="applyButton"> Apply Here </button> </a></p>
 <p>contact us at: <a href="mailto:woeps.contact@gmail.com">woeps.contact@gmail.com</a></p>
 </div>
 </div>
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -508,35 +537,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = false;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
