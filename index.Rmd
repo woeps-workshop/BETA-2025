@@ -132,7 +132,7 @@ h2, h3, h4, h5, h6 {
 
 <br><br>
 
-The **Bureau d'Economie Théorique et Appliquée (BETA)** and **University of Strasbourg** are organising the annual workshop “The Organisation, Economics and Policy of Scientific Research” at the Pôle Européen de Gestion et d'Economie in Strasbourg.
+The **Bureau d'Économie Théorique et Appliquée (BETA)** and **University of Strasbourg** are organising the annual workshop “The Organisation, Economics and Policy of Scientific Research” at BETA's venue in Strasbourg.
 
 <br><br>
 
@@ -187,6 +187,7 @@ Contributions are invited on (but not limited to) one or more of the following t
 - Role of individual researcher characteristics in scientific research
 - Science research networks and collaboration
 - Scientific careers and mobility
+- Creatvity and novelty in science
 
 <br><br>
 
