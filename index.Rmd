@@ -143,7 +143,7 @@ The **Bureau d'Économie Théorique et Appliquée (BETA)** and **University of S
 
 
 <div style="text-align: center;">
-<a href="" style="text-decoration: none;">
+<a href="https://easychair.org/conferences/?conf=woeps2025" style="text-decoration: none;">
     <button id="applyButton">
         Apply Here
     </button>
@@ -211,7 +211,7 @@ No review or comments will be offered to the authors to supplement the decision.
 
 Participation in the workshop is free for authors of selected papers.
 
-We are offering a limited number of travel and accommodation support grants to junior scholars (PhD students or scholars who obtained their PhD in 2020 or later) without local funds.
+We are offering a limited number of travel and accommodation support grants to junior scholars (PhD students or scholars who obtained their PhD in 2021 or later) without local funds.
 
 **To be considered for such grants please state your intention and your eligibility on the first page of your manuscript when submitting it.**
 
@@ -279,7 +279,7 @@ The workshop will take place at the **Bureau d'Economie Théorique et Appliquée
 <br><br>
 
 <div style="text-align: center;">
-<a href="" style="text-decoration: none;">
+<a href="https://easychair.org/conferences/?conf=woeps2025" style="text-decoration: none;">
     <button id="applyButton">
         Apply Here
     </button>
