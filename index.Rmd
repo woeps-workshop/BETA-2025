@@ -175,7 +175,7 @@ contact us at: [woeps.contact@gmail.com](mailto:woeps.contact@gmail.com)
 # **Overview**
 We aim to attract contributions from both junior and senior scholars on topics related to the organisation, economics, and policy of scientific research. 
 
-A minimum number of slots are reserved for junior researchers (PhD students or postdoc scholars who obtained their PhD in 2021 or later).
+A minimum number of slots is reserved for junior researchers (PhD students or postdoc scholars who obtained their PhD in 2021 or later).
 <br><br>
 
 # **Topics**
@@ -187,7 +187,7 @@ Contributions are invited on (but not limited to) one or more of the following t
 - Role of individual researcher characteristics in scientific research
 - Science research networks and collaboration
 - Scientific careers and mobility
-- Creatvity and novelty in science
+- Creativity and novelty in science
 - Selection of research fields or projects
 - Research behavior and risk taking
 
@@ -195,7 +195,7 @@ Contributions are invited on (but not limited to) one or more of the following t
 
 # **Submission Important dates**
 
-- **6th January 2025**: Deadline for submit previously unpublished papers or extended abstracts (min 3 pages) by  via [EasyChair](https://easychair.org/conferences/?conf=woeps2025). 
+- **6th January 2025**: Deadline for submit previously unpublished papers or extended abstracts (min 3 pages) via [EasyChair](https://easychair.org/conferences/?conf=woeps2025). 
 - **24th February 2025**: Notification of acceptance  
 - **17th March 2025**: Deadline for submission of full papers
 
