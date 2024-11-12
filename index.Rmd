@@ -195,7 +195,7 @@ Contributions are invited on (but not limited to) one or more of the following t
 
 # **Submission Important dates**
 
-- **6th January 2025**: Deadline for submit previously unpublished papers or extended abstracts (min 3 pages) by  via [EasyChair](). 
+- **6th January 2025**: Deadline for submit previously unpublished papers or extended abstracts (min 3 pages) by  via [EasyChair](https://easychair.org/conferences/?conf=woeps2025). 
 - **24th February 2025**: Notification of acceptance  
 - **17th March 2025**: Deadline for submission of full papers
 
