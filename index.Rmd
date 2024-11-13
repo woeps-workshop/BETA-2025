@@ -246,7 +246,7 @@ The workshop will take place at the **Bureau d'Economie Théorique et Appliquée
 - Cristiano Antonelli (Università di Torino)
 - Catherine Beaudry (Polytechnique Montréal)
 - Stefano Bianchini (Université de Strasbourg)
-- Nicolas Carayol (Université de Bordeaux, Bordeaux School of Economics)
+- Nicolas Carayol (Bordeaux School of Economics)
 - Michele Cincera (Université Libre de Bruxelles)
 - Aldo Geuna (Università di Torino)
 - Hanna Hottenrott (TUM)
