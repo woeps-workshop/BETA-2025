@@ -114,6 +114,30 @@ h1.title {
   display: none;
 }
 
+/* Styles for tables */
+table {
+  width: 100%; /* Changed to 100% to fill the container */
+  border-collapse: collapse;
+  margin: 0;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #FAE5E3;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  table {
+    margin: 20px auto; /* Add margin on larger screens */
+    max-width: 80%; /* Optionally, limit the max width */
+  }
+}
 
 ```
 
@@ -137,41 +161,27 @@ The **Bureau d'Économie Théorique et Appliquée (BETA)** and **University of S
 <br><br>
 
 <div style="text-align: center;">
-**Date:** 3-4 April 2025  
+
+**Date:** 3-4 April 2025
+
 **Location:** Strasbourg, France
-</div>
 
-
-contact us at: [woeps.contact@gmail.com](mailto:woeps.contact@gmail.com)
+**Contact**: [woeps.contact@gmail.com](mailto:woeps.contact@gmail.com)
 
 </div>
 
-<br><br>
 
-<div id="TOC">
-  <ul>
-    <li><a href="#programme">Programme</a></li>
-    <li><a href="#venue">Venue</a></li>
-    <li><a href="#some-accommodation-options">Some Accommodation Options</a></li>
-    <li><a href="#scientific-committee">Scientific Committee</a></li>
-    <li><a href="#local-organising-committee">Local Organising Committee</a></li>
-  </ul>
-</div>
 
 ---
 
-<br><br>
-
-
-# **Program**
 
  <div style="text-align: center;">
- <a href="https://github.com/woeps-workshop/BETA-2025/raw/gh-pages/files/woeps2025.pdf" style="text-decoration: none;">
+ <a href="https://github.com/woeps-workshop/BETA-2025/raw/gh-page/files/woeps2025.pdf" style="text-decoration: none;">
      <button id="applyButton">
-         Download in PDF
+         Download Program in PDF
      </button>
  </a>
- 
+ </div>
 
 ##   2nd April 2025
 
@@ -189,7 +199,7 @@ contact us at: [woeps.contact@gmail.com](mailto:woeps.contact@gmail.com)
 |   08:55 – 09:00 | Welcome Address                    |
 
 ###   Session 1: Gender Issues in Academia
-* Chair: Catherine Beaudry
+ Chair: Catherine Beaudry
 
 |   Time   | Paper                                                                                                                                                                                                                                       | Discussant           |
 |   :----- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------- |
@@ -205,7 +215,7 @@ contact us at: [woeps.contact@gmail.com](mailto:woeps.contact@gmail.com)
 |   10:30 – 10:45 | Coffee Break |
 
 ###   Session 2: Mobility and International Collaboration
-* Chair: Sotaro Shibayama
+ Chair: Sotaro Shibayama
 
 |   Time   | Paper                                                                                                                                                                                                                                                                     | Discussant          |
 |   :----- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------ |
@@ -226,7 +236,7 @@ Jacques Mairesse *CREST (ENSAE, Paris), UNU-MERIT (Maastricht University), NBER*
 |   15:15 – 15:30 | Coffee Break |
 
 ###   Session 3: Research Funding and Evaluation Mechanisms
-* Chair: Patrick Llerena
+ Chair: Patrick Llerena
 
 |   Time   | Paper                                                                                                                                                                                                                                                                             | Discussant          |
 |   :----- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------ |
@@ -246,7 +256,7 @@ Jacques Mairesse *CREST (ENSAE, Paris), UNU-MERIT (Maastricht University), NBER*
 ###   4th April 2024
 
 ###   Session 4: Knowledge Transfer and Collaborations
-* Chair: Fabiana Visentin
+ Chair: Fabiana Visentin
 
 |   Time   | Paper                                                                                                                                                                                                                                                                      | Discussant      |
 |   :----- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------- |
@@ -260,7 +270,7 @@ Jacques Mairesse *CREST (ENSAE, Paris), UNU-MERIT (Maastricht University), NBER*
 
 
 ###   Session 5: Artificial Intelligence in Science
-* Chair: Stefano Bianchini
+ Chair: Stefano Bianchini
 
 |   Time   | Paper                                                                                                                                                                                                                                       | Discussant        |
 |   :----- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------- |
@@ -276,7 +286,7 @@ Jacques Mairesse *CREST (ENSAE, Paris), UNU-MERIT (Maastricht University), NBER*
 |   12:15 – 13:45 | Lunch Break |
 
 ###   Session 6: Interdisciplinarity and Scientific Impact
-* Chair: Cornelia Lawson
+ Chair: Cornelia Lawson
 
 |   Time   | Paper                                                                                                                                                                                                                                              | Discussant      |
 |   :----- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------- |
@@ -292,7 +302,7 @@ Jacques Mairesse *CREST (ENSAE, Paris), UNU-MERIT (Maastricht University), NBER*
 |   15:15 – 15:30 | Coffee Break |
 
 ###   Session 7: Selection Bias and Opportunity in Academic Careers
-* Chair: Nicolas Carayol
+ Chair: Nicolas Carayol
 
 |   Time   | Paper                                                                                                                                                                                               | Discussant       |
 |   :----- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------- |

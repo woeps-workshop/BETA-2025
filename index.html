@@ -354,6 +354,30 @@ h1.title {
   display: none;
 }
 
+/* Styles for tables */
+table {
+  width: 100%; /* Changed to 100% to fill the container */
+  border-collapse: collapse;
+  margin: 0;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #FAE5E3;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  table {
+    margin: 20px auto; /* Add margin on larger screens */
+    max-width: 80%; /* Optionally, limit the max width */
+  }
+}
 
 </style>
 <style>
@@ -371,37 +395,14 @@ h2, h3, h4, h5, h6 {
 <p>The <strong>Bureau d’Économie Théorique et Appliquée (BETA)</strong> and <strong>University of Strasbourg</strong> are organising the annual workshop “The Organisation, Economics and Policy of Scientific Research” at BETA’s venue in Strasbourg.</p>
 <p><br><br></p>
 <div style="text-align: center;">
-<p><strong>Date:</strong> 3-4 April 2025<br />
-<strong>Location:</strong> Strasbourg, France</p>
-</div>
-<p>contact us at: <a href="mailto:woeps.contact@gmail.com">woeps.contact@gmail.com</a></p>
-</div>
-<p><br><br></p>
-<div id="TOC">
-<ul>
-<li>
-<a href="#programme">Programme</a>
-</li>
-<li>
-<a href="#venue">Venue</a>
-</li>
-<li>
-<a href="#some-accommodation-options">Some Accommodation Options</a>
-</li>
-<li>
-<a href="#scientific-committee">Scientific Committee</a>
-</li>
-<li>
-<a href="#local-organising-committee">Local Organising Committee</a>
-</li>
-</ul>
+<p><strong>Date:</strong> 3-4 April 2025</p>
+<p><strong>Location:</strong> Strasbourg, France</p>
+<p><strong>Contact</strong>: <a href="mailto:woeps.contact@gmail.com">woeps.contact@gmail.com</a></p>
 </div>
 <hr />
-<p><br><br></p>
-<div id="program" class="section level1">
-<h1><strong>Program</strong></h1>
 <div style="text-align: center;">
-<p><a href="https://github.com/woeps-workshop/BETA-2025/raw/gh-pages/files/woeps2025.pdf" style="text-decoration: none;"> <button id="applyButton"> Download in PDF </button> </a></p>
+<a href="https://github.com/woeps-workshop/BETA-2025/raw/gh-page/files/woeps2025.pdf" style="text-decoration: none;"> <button id="applyButton"> Download Program in PDF </button> </a>
+</div>
 <div id="nd-april-2025" class="section level2">
 <h2>2nd April 2025</h2>
 <table>
@@ -448,9 +449,7 @@ h2, h3, h4, h5, h6 {
 </div>
 <div id="session-1-gender-issues-in-academia" class="section level3">
 <h3>Session 1: Gender Issues in Academia</h3>
-<ul>
-<li>Chair: Catherine Beaudry</li>
-</ul>
+<p>Chair: Catherine Beaudry</p>
 <table>
 <colgroup>
 <col width="2%" />
@@ -502,9 +501,7 @@ h2, h3, h4, h5, h6 {
 </div>
 <div id="session-2-mobility-and-international-collaboration" class="section level3">
 <h3>Session 2: Mobility and International Collaboration</h3>
-<ul>
-<li>Chair: Sotaro Shibayama</li>
-</ul>
+<p>Chair: Sotaro Shibayama</p>
 <table>
 <colgroup>
 <col width="2%" />
@@ -571,9 +568,7 @@ Jacques Mairesse <em>CREST (ENSAE, Paris), UNU-MERIT (Maastricht University), NB
 </div>
 <div id="session-3-research-funding-and-evaluation-mechanisms" class="section level3">
 <h3>Session 3: Research Funding and Evaluation Mechanisms</h3>
-<ul>
-<li>Chair: Patrick Llerena</li>
-</ul>
+<p>Chair: Patrick Llerena</p>
 <table>
 <colgroup>
 <col width="2%" />
@@ -635,9 +630,7 @@ Jacques Mairesse <em>CREST (ENSAE, Paris), UNU-MERIT (Maastricht University), NB
 </div>
 <div id="session-4-knowledge-transfer-and-collaborations" class="section level3">
 <h3>Session 4: Knowledge Transfer and Collaborations</h3>
-<ul>
-<li>Chair: Fabiana Visentin</li>
-</ul>
+<p>Chair: Fabiana Visentin</p>
 <table>
 <colgroup>
 <col width="2%" />
@@ -675,9 +668,7 @@ Jacques Mairesse <em>CREST (ENSAE, Paris), UNU-MERIT (Maastricht University), NB
 </div>
 <div id="session-5-artificial-intelligence-in-science" class="section level3">
 <h3>Session 5: Artificial Intelligence in Science</h3>
-<ul>
-<li>Chair: Stefano Bianchini</li>
-</ul>
+<p>Chair: Stefano Bianchini</p>
 <table style="width:100%;">
 <colgroup>
 <col width="2%" />
@@ -729,9 +720,7 @@ Jacques Mairesse <em>CREST (ENSAE, Paris), UNU-MERIT (Maastricht University), NB
 </div>
 <div id="session-6-interdisciplinarity-and-scientific-impact" class="section level3">
 <h3>Session 6: Interdisciplinarity and Scientific Impact</h3>
-<ul>
-<li>Chair: Cornelia Lawson</li>
-</ul>
+<p>Chair: Cornelia Lawson</p>
 <table>
 <colgroup>
 <col width="2%" />
@@ -783,9 +772,7 @@ Jacques Mairesse <em>CREST (ENSAE, Paris), UNU-MERIT (Maastricht University), NB
 </div>
 <div id="session-7-selection-bias-and-opportunity-in-academic-careers" class="section level3">
 <h3>Session 7: Selection Bias and Opportunity in Academic Careers</h3>
-<ul>
-<li>Chair: Nicolas Carayol</li>
-</ul>
+<p>Chair: Nicolas Carayol</p>
 <table>
 <colgroup>
 <col width="2%" />
@@ -911,8 +898,7 @@ Jacques Mairesse <em>CREST (ENSAE, Paris), UNU-MERIT (Maastricht University), NB
 </ul>
 <hr />
 <p><br><br></p>
-<p>contact us at: <a href="mailto:woeps.contact@gmail.com">woeps.contact@gmail.com</a></p>
-</div>
+contact us at: <a href="mailto:woeps.contact@gmail.com">woeps.contact@gmail.com</a>
 </div>
 </div>
 
