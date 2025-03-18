@@ -182,7 +182,6 @@ The **Bureau d'Économie Théorique et Appliquée (BETA)** and **University of S
      </button>
  </a>
  </div>
-
 ##   2nd April 2025
 
 |   Time   | Event                                                                                             |
@@ -204,11 +203,11 @@ The **Bureau d'Économie Théorique et Appliquée (BETA)** and **University of S
 |   Time   | Paper                                                                                                                                                                                                                                       | Discussant           |
 |   :----- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------- |
 |   09:00 – 09:30 |   **Children and Careers in Swedish Academia** \
-    *Peter Holmström (Lund University, Department of Economic History) and Olof Ejermo (Lund University, Department of Economic History)* |   Cornelia Lawson     |
+    Peter Holmström *(Lund University, Department of Economic History)* and Olof Ejermo *(Lund University, Department of Economic History)* |   Cornelia Lawson     |
 |   09:30 – 10:00 |   **Connections in Academia: Collaboration and Gender** \
-    *Milan Makany (Erasmus University Rotterdam )* |   Fabiana Vinsentin |
+    Milan Makany *(Erasmus University Rotterdam )* |   Fabiana Vinsentin |
 |   10:00 – 10:30 |   **From the Ivory Tower to Capitol Hill: Which Academics Get a Voice in Congress?** \
-    *Astrid Ulv Thomsen (Copenhagen Business School) and Yotam Sofer (Copenhagen Business School)* |  Michael Rose    |
+    Astrid Ulv Thomsen *(Copenhagen Business School)* and Yotam Sofer *(Copenhagen Business School)* |  Michael Rose    |
 
 |   Time   | Event         |
 |   :----- | :------------ |
@@ -220,11 +219,11 @@ The **Bureau d'Économie Théorique et Appliquée (BETA)** and **University of S
 |   Time   | Paper                                                                                                                                                                                                                                                                     | Discussant          |
 |   :----- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------ |
 |   10:45 – 11:15 |   **Trump, Iran and Science** \
-    *Stefano Baruffaldi (Politecnico di Milano), Carolin Formella (Max Planck Institute for Innovation and Competition) and Michael Rose (Max Planck Institute for Innovation and Competition)* |   Catherine Beaudry |
-|   11:15 – 11:45 |   **Navigating the Knowledge boundaries: The Impact of Collaborating with Internationally Mobile Researchers on Non-mobile Researchers’ Knowledge exploration and creation** \
-    *Rodrigo Ito (Maastricht University), Diego Chavarro (Research Policy Solutions), Tommaso Ciarli (United Nations University-MERIT), Robin Cowan (University of Strasbourg and Maastricht University) and Fabiana Visentin (Maastricht University)* |   Aldo Geuna          |
+    Stefano Baruffaldi *(Politecnico di Milano)*, Carolin Formella *(Max Planck Institute for Innovation and Competition)* and Michael Rose *(Max Planck Institute for Innovation and Competition)* |   Catherine Beaudry |
+|   11:15 – 11:45 |   **Navigating the Knowledge boundaries: The Impact of Collaborating with Internationally Mobile Researchers on Non-mobile Researchers' Knowledge exploration and creation** \
+    Rodrigo Ito *(Maastricht University)*, Diego Chavarro *(Research Policy Solutions)*, Tommaso Ciarli *(United Nations University-MERIT)*, Robin Cowan *(University of Strasbourg and Maastricht University)* and Fabiana Visentin *(Maastricht University)* |   Aldo Geuna          |
 |   11:45 – 12:15 |   **Immigrants or Emigrants, Which One is the Better Choice for Scientific Collaboration?** \
-    *Amirali Karimi (Polytechnique Montréal), Catherine Beaudry (Polytechnique Montréal) and Vincent Larivière (Université de Montréal)* |   Moritz Müller       |
+    Amirali Karimi *(Polytechnique Montréal)*, Catherine Beaudry *(Polytechnique Montréal)* and Vincent Larivière *(Université de Montréal)* |   Moritz Müller       |
 
 |   Time   | Event                                                                                                 |
 |   :----- | :---------------------------------------------------------------------------------------------------- |
@@ -236,16 +235,16 @@ Jacques Mairesse *CREST (ENSAE, Paris), UNU-MERIT (Maastricht University), NBER*
 | 15:15 – 15:30 | Coffee Break |
 
 ###   Session 3: Research Funding and Evaluation Mechanisms
- Chair: Patrick Llerena
+ Chair: Cornelia Lawson
 
 |   Time   | Paper                                                                                                                                                                                                                                                                             | Discussant          |
 |   :----- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------ |
 |   15:30 – 16:00 |   **Addressing Conservatism in Funding Decisions via Enhanced Selection Mechanisms** \
-    *Thomas Feliciani (Politecnico di Milano), Rikke Nørding Christensen (Novo Nordisk Foundation) and Chiara Franzoni (Politecnico di Milano)* |   Nicolas Carayol   |
+    Thomas Feliciani *(Politecnico di Milano)*, Rikke Nørding Christensen *(Novo Nordisk Foundation)* and Chiara Franzoni *(Politecnico di Milano)* |   Nicolas Carayol   |
 |   16:00 – 16:30 |   **Mitigating Negativity in Science Funding: The Role of Two-Step Procedures and Group Decision-Making** \
-    *Hanna Hottenrott (Leibniz Centre for European Economic Research (ZEW)), Lakshya Katariya (KU Leuven) and Cindy Lopes Bento (KU Leuven)* |   Michele Pezzoni   |
+    Hanna Hottenrott *(Leibniz Centre for European Economic Research (ZEW))*, Lakshya Katariya *(KU Leuven)* and Cindy Lopes Bento *(KU Leuven)* |   Michele Pezzoni   |
 |   16:30 – 17:00 |   **How to Pay for Scientific Research** \
-    *Daniele Checchi (University of Milan), Gianni De Fraja (University of Nottingham), Carmen Marchiori (University of Brescia), Enrico Minelli (University of Brescia) and Stefano Verzillo (European Commission, Joint Research Centre)* |   Reinhilde Veugelers |
+    Daniele Checchi *(University of Milan)*, Gianni De Fraja *(University of Nottingham)*, Carmen Marchiori *(University of Brescia)*, Enrico Minelli *(University of Brescia)* and Stefano Verzillo *(European Commission, Joint Research Centre)* |   Reinhilde Veugelers |
 
 |   Time   | Event                                                                                                                             |
 |   :----- | :-------------------------------------------------------------------------------------------------------------------------------- |
@@ -261,11 +260,11 @@ Jacques Mairesse *CREST (ENSAE, Paris), UNU-MERIT (Maastricht University), NBER*
 |   Time   | Paper                                                                                                                                                                                                                                                                      | Discussant      |
 |   :----- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------- |
 |   9:00 - 9:30 |   **Harnessing Academic Science for Corporate Technology: The Role of Interpersonal Networks and Brokers** \
-    *Sam Arts (KU Leuven), Lee Fleming (UC Berkeley) and Elena Veretennik (KU Leuven)* |   Julien Penin    |
+    Sam Arts *(KU Leuven)*, Lee Fleming *(UC Berkeley)* and Elena Veretennik *(KU Leuven)* |   Julien Penin    |
 |   9:30 - 10:00 |   **When one teaches, two learn: The bidirectional learning process supervisor-PhD student** \
-    *Pierre Boutros (Université Côte d’Azur, CNRS, GREDEG), Michele Pezzoni (Université Côte d’Azur, CNRS, GREDEG), Sotaro Shibayama (Institute for Future Initiatives, The University of Tokyo) and Fabiana Visentin (UNU-MERIT, Maastricht University)* |   Guido Buenstorf  |
+    Pierre Boutros *(Université Côte d'Azur, CNRS, GREDEG)*, Michele Pezzoni *(Université Côte d'Azur, CNRS, GREDEG)*, Sotaro Shibayama *(Institute for Future Initiatives, The University of Tokyo)* and Fabiana Visentin *(UNU-MERIT, Maastricht University)* |   Guido Buenstorf  |
 |   10:00 - 10:30 |   **Evolving Networks of Scientists and Engineers: Strategic Complementarities and Science Policy** \
-    *James Adams (Rensselaer Polytechnic Institute and NBER), Ameya Hate (Akamai Technologies) and J. Roger Clemmons (United HealthCare)* |   Robin Cowan      |
+    James Adams *(Rensselaer Polytechnic Institute and NBER)*, Ameya Hate *(Akamai Technologies)* and J. Roger Clemmons *(United HealthCare)* |   Robin Cowan      |
 
 
 
@@ -275,41 +274,41 @@ Jacques Mairesse *CREST (ENSAE, Paris), UNU-MERIT (Maastricht University), NBER*
 |   Time   | Paper                                                                                                                                                                                                                                       | Discussant        |
 |   :----- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------- |
 |   10:45 - 11:15 |   **Transformative Impact of HPC and AI on Science** \
-    *Fazliddin Shermatov (University of Turin and Université Sorbonne Paris Nord), Stefano Bianchini (University of Strasbourg) and Aldo Geuna (University of Turin)* |   Henry Sauerman   |
-|   11:15 - 11:45 |   **Does Training in AI Affect PhD Students’ Careers? Evidence From France** \
-    *Pierre Boutros (Université Côte d'Azur), Eliana Diodati (University of Torino, Collegio Carlo Alberto), Michele Pezzoni (Université Côte d'Azur) and Fabiana Visentin (UNU-MERIT, Maastricht University)* |   Stijn Kelchtermans|
+    Fazliddin Shermatov *(University of Turin and Université Sorbonne Paris Nord)*, Stefano Bianchini *(University of Strasbourg)* and Aldo Geuna *(University of Turin)* |   Henry Sauerman   |
+|   11:15 - 11:45 |   **Does Training in AI Affect PhD Students' Careers? Evidence From France** \
+    Pierre Boutros *(Université Côte d'Azur)*, Eliana Diodati *(University of Torino, Collegio Carlo Alberto)*, Michele Pezzoni *(Université Côte d'Azur)* and Fabiana Visentin *(UNU-MERIT, Maastricht University)* |   Stijn Kelchtermans|
 |   11:45 – 12:15 |   **Chat-PhD: The Role of LLM in Shaping the Research Practices and Productivity of Young Scholars** \
-    *Ivan Napoli (Catholic University of Milan), Stefano Bianchini (University of Strasbourg), Gabriele Pellegrino (Catholic University of Milan) and Pierre Pelletier (University of Strasbourg)* |   Sotaro Shibayama |
+    Ivan Napoli *(Catholic University of Milan)*, Stefano Bianchini *(University of Strasbourg)*, Gabriele Pellegrino *(Catholic University of Milan)* and Pierre Pelletier *(University of Strasbourg)* |   Sotaro Shibayama |
 
 |   Time   | Event         |
 |   :----- | :------------ |
 |   12:15 – 13:45 | Lunch Break |
 
 ###   Session 6: Interdisciplinarity and Scientific Impact
- Chair: Cornelia Lawson
+ Chair: Reinhilde Veugelers
 
 |   Time   | Paper                                                                                                                                                                                                                                              | Discussant      |
 |   :----- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------- |
 |   13:45 - 14:15 |   **Entangling the Impact of Methodological and Topic Interdisciplinarity on Scientific Performance in Economics** \
-    *Diletta Abbonato (University of Milan-Bicocca) and Marco Guerzoni (University of Milan-Bicocca)* |   Nicola Meluso    |
+    Diletta Abbonato *(University of Milan-Bicocca)* and Marco Guerzoni *(University of Milan-Bicocca)* |   Nicola Meluso    |
 |   14:15 – 14:45 |   **Specialization and Academic Career: Different Effects in Different Career Stages** \
-    *Jian Wang (Lancaster University Leipzig) and Sotaro Shibayama (University of Tokyo)* |   Daniel Souza      |
+    Jian Wang *(Lancaster University Leipzig)* and Sotaro Shibayama *(University of Tokyo)* |   Daniel Souza      |
 |   14:45 – 15:15 |   **The Impact of Scientific Characteristics on Green Technologies: Exploring Novel and Interdisciplinary Knowledge** \
-    *Cornelia Lawson (Manchester Institute of Innovation Research (MIOIR)), Silvia Massini (Alliance Manchester Business School) and An Yu Chen (Alliance Manchester Business School)* |   Fabio Montobio   |
+    Cornelia Lawson *(Manchester Institute of Innovation Research (MIOIR))*, Silvia Massini *(Alliance Manchester Business School)* and An Yu Chen *(Alliance Manchester Business School)* |   Fabio Montobio   |
 
 |   Time   | Event         |
 |   :----- | :------------ |
 |   15:15 – 15:30 | Coffee Break |
 
 ###   Session 7: Selection Bias and Opportunity in Academic Careers
- Chair: Nicolas Carayol
+ Chair: Patrick Llerena
 
 |   Time   | Paper                                                                                                                                                                                               | Discussant       |
 |   :----- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------- |
-|   15:00 – 15:20 |   **The Chosen: Researcher Visas and Foreign PhD graduates’ careers in France** \
-    *Andriy Romanyuk (University of Bordeaux and Università degli Studi dell'Insubria), Alberto Corsini (CSIC, Institute of Public Goods and Policies) and Francesco Lissoni (University of Bordeaux and Università Cattolica del Sacro Cuore)* |   Mary Fox           |
+|   15:00 – 15:20 |   **The Chosen: Researcher Visas and Foreign PhD graduates' careers in France** \
+    Andriy Romanyuk *(University of Bordeaux and Università degli Studi dell'Insubria)*, Alberto Corsini *(CSIC, Institute of Public Goods and Policies)* and Francesco Lissoni *(University of Bordeaux and Università Cattolica del Sacro Cuore)* |   Mary Fox           |
 |   15:20 – 15:40 |   **Judging the Paper by Its Cover: Affiliation Bias in Conference Admissions** \
-    *Giacomo Gallegati (Collegio Carlo Alberto, University of Turin, University Paris 1 Panthéon-Sorbonne), Luca Favero (University of Essex), Agueda Solis Alonso (Collegio Carlo Alberto, University of Turin) and Enrique Carreras (Collegio Carlo Alberto, University of Turin)* |   Jacques Mairesse |
+    Giacomo Gallegati *(Collegio Carlo Alberto, University of Turin, University Paris 1 Panthéon-Sorbonne)*, Luca Favero *(University of Essex)*, Agueda Solis Alonso *(Collegio Carlo Alberto, University of Turin)* and Enrique Carreras *(Collegio Carlo Alberto, University of Turin)* |   Jacques Mairesse |
 
 |   Time   | Event   |
 |   :----- | :------ |
