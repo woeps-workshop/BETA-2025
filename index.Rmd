@@ -297,10 +297,10 @@ Lunch Break |
 |   :----- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------- |
 |   13:45 - 14:15 |   **Entangling the Impact of Methodological and Topic Interdisciplinarity on Scientific Performance in Economics** \
     Diletta Abbonato *(University of Milan-Bicocca)* and Marco Guerzoni *(University of Milan-Bicocca)* |   Nicola Meluso    |
-|   14:15 – 14:45 |   **Specialization and Academic Career: Different Effects in Different Career Stages** \
-    Jian Wang *(Lancaster University Leipzig)* and Sotaro Shibayama *(University of Tokyo)* |   Daniel Souza      |
-|   14:45 – 15:15 |   **The Impact of Scientific Characteristics on Green Technologies: Exploring Novel and Interdisciplinary Knowledge** \
-    Cornelia Lawson *(Manchester Institute of Innovation Research (MIOIR))*, Silvia Massini *(Alliance Manchester Business School)* and An Yu Chen *(Alliance Manchester Business School)* |   Fabio Montobio   |
+|   14:15 – 14:45 | **The Impact of Scientific Characteristics on Green Technologies: Exploring Novel and Interdisciplinary Knowledge** \
+    Cornelia Lawson *(Manchester Institute of Innovation Research (MIOIR))*, Silvia Massini *(Alliance Manchester Business School)* and An Yu Chen *(Alliance Manchester Business School)* |   Fabio Montobio     |
+|   14:45 – 15:15 |    **Specialization and Academic Career: Different Effects in Different Career Stages** \
+    Jian Wang *(Lancaster University Leipzig)* and Sotaro Shibayama *(University of Tokyo)* |   Daniel Souza     |
 
 |   Time   | Event         |
 |   :----- | :-------------------------------------------------------------------------------------------------------------------------------- |
@@ -312,14 +312,14 @@ Coffee Break |
 
 |   Time   | Paper                                                                                                                                                                                               | Discussant       |
 |   :----- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------- |
-|   15:00 – 15:20 |   **The Chosen: Researcher Visas and Foreign PhD graduates' careers in France** \
+|   15:30 – 16:00 |   **The Chosen: Researcher Visas and Foreign PhD graduates' careers in France** \
     Andriy Romanyuk *(University of Bordeaux and Università degli Studi dell'Insubria)*, Alberto Corsini *(CSIC, Institute of Public Goods and Policies)* and Francesco Lissoni *(University of Bordeaux and Università Cattolica del Sacro Cuore)* |   Mary Fox           |
-|   15:20 – 15:40 |   **Judging the Paper by Its Cover: Affiliation Bias in Conference Admissions** \
+|   16:00 – 16:30 |   **Judging the Paper by Its Cover: Affiliation Bias in Conference Admissions** \
     Giacomo Gallegati *(Collegio Carlo Alberto, University of Turin, University Paris 1 Panthéon-Sorbonne)*, Luca Favero *(University of Essex)*, Agueda Solis Alonso *(Collegio Carlo Alberto, University of Turin)* and Enrique Carreras *(Collegio Carlo Alberto, University of Turin)* |   Jacques Mairesse |
 
 |   Time   | Event   |
 |   :----- | :------------------------------------------------------------------------------- |
-|   16:10 | Farewell |
+|   16:30 | Farewell |
 
 <br><br>
 
