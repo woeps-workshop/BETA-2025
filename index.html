@@ -353,32 +353,35 @@ a:hover {
 h1.title {
   display: none;
 }
-
-/* Styles for tables */
 table {
-  width: 100%; /* Changed to 100% to fill the container */
-  border-collapse: collapse;
-  margin: 0;
+    width: 100%; /* Important for overall table width */
+    border-collapse: collapse;
+    margin: 0;
 }
 
-th, td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th:first-child,
+td:first-child {
+    width: 40px; /* Adjust this value as needed */
 }
 
 th {
-  background-color: #FAE5E3;
+    background-color: #FAE5E3;
 }
 
 /* Media query for larger screens */
 @media (min-width: 768px) {
-  table {
-    margin: 20px auto; /* Add margin on larger screens */
-    max-width: 80%; /* Optionally, limit the max width */
-  }
+    table {
+        margin: 20px auto;
+        max-width: 80%;
+    }
 }
-
 </style>
 <style>
 /* Center level 1 headings and change color */
@@ -494,7 +497,8 @@ Astrid Ulv Thomsen <em>(Copenhagen Business School)</em> and Yotam Sofer <em>(Co
 <tbody>
 <tr class="odd">
 <td align="left">10:30 – 10:45</td>
-<td align="left">Coffee Break</td>
+<td align="left"><br />
+Coffee Break</td>
 </tr>
 </tbody>
 </table>
@@ -561,7 +565,8 @@ Jacques Mairesse <em>CREST (ENSAE, Paris), UNU-MERIT (Maastricht University), NB
 </tr>
 <tr class="odd">
 <td align="left">15:15 – 15:30</td>
-<td align="left">Coffee Break</td>
+<td align="left"><br />
+Coffee Break</td>
 </tr>
 </tbody>
 </table>
@@ -713,7 +718,8 @@ Ivan Napoli <em>(Catholic University of Milan)</em>, Stefano Bianchini <em>(Univ
 <tbody>
 <tr class="odd">
 <td align="left">12:15 – 13:45</td>
-<td align="left">Lunch Break</td>
+<td align="left"><br />
+Lunch Break</td>
 </tr>
 </tbody>
 </table>
@@ -765,7 +771,8 @@ Cornelia Lawson <em>(Manchester Institute of Innovation Research (MIOIR))</em>, 
 <tbody>
 <tr class="odd">
 <td align="left">15:15 – 15:30</td>
-<td align="left">Coffee Break</td>
+<td align="left"><br />
+Coffee Break</td>
 </tr>
 </tbody>
 </table>

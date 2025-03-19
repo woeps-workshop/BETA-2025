@@ -113,32 +113,35 @@ a:hover {
 h1.title {
   display: none;
 }
-
-/* Styles for tables */
 table {
-  width: 100%; /* Changed to 100% to fill the container */
-  border-collapse: collapse;
-  margin: 0;
+    width: 100%; /* Important for overall table width */
+    border-collapse: collapse;
+    margin: 0;
 }
 
-th, td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th:first-child,
+td:first-child {
+    width: 40px; /* Adjust this value as needed */
 }
 
 th {
-  background-color: #FAE5E3;
+    background-color: #FAE5E3;
 }
 
 /* Media query for larger screens */
 @media (min-width: 768px) {
-  table {
-    margin: 20px auto; /* Add margin on larger screens */
-    max-width: 80%; /* Optionally, limit the max width */
-  }
+    table {
+        margin: 20px auto;
+        max-width: 80%;
+    }
 }
-
 ```
 
 <style>
@@ -192,10 +195,10 @@ The **Bureau d'Économie Théorique et Appliquée (BETA)** and **University of S
 
 ###   3rd April 2025
 
-|   Time   | Event                                |
-|   :----- | :----------------------------------- |
-|   08:30 – 08:55 | Registration and Welcome Coffee |
-|   08:55 – 09:00 | Welcome Address                    |
+|   Time   | Event                                                                                                                            |
+|   :----- | :------- |
+|  08:30 – 08:55 | Registration and Welcome Coffee |
+|  08:55 – 09:00 | Welcome Address                 |
 
 ###   Session 1: Gender Issues in Academia
  Chair: Catherine Beaudry
@@ -210,8 +213,9 @@ The **Bureau d'Économie Théorique et Appliquée (BETA)** and **University of S
     Astrid Ulv Thomsen *(Copenhagen Business School)* and Yotam Sofer *(Copenhagen Business School)* |  Michael Rose    |
 
 |   Time   | Event         |
-|   :----- | :------------ |
-|   10:30 – 10:45 | Coffee Break |
+|   :----- | :--- |
+|   10:30 – 10:45 | \
+Coffee Break |
 
 ###   Session 2: Mobility and International Collaboration
  Chair: Sotaro Shibayama
@@ -232,7 +236,8 @@ The **Bureau d'Économie Théorique et Appliquée (BETA)** and **University of S
 Lunch Break ( Resto Le 32 ) |
 |   14:00 – 15:15 |   **Keynote Speech** \
 Jacques Mairesse *CREST (ENSAE, Paris), UNU-MERIT (Maastricht University), NBER*  |
-| 15:15 – 15:30 | Coffee Break |
+| 15:15 – 15:30 | \
+Coffee Break |
 
 ###   Session 3: Research Funding and Evaluation Mechanisms
  Chair: Cornelia Lawson
@@ -281,8 +286,9 @@ Jacques Mairesse *CREST (ENSAE, Paris), UNU-MERIT (Maastricht University), NBER*
     Ivan Napoli *(Catholic University of Milan)*, Stefano Bianchini *(University of Strasbourg)*, Gabriele Pellegrino *(Catholic University of Milan)* and Pierre Pelletier *(University of Strasbourg)* |   Sotaro Shibayama |
 
 |   Time   | Event         |
-|   :----- | :------------ |
-|   12:15 – 13:45 | Lunch Break |
+|   :----- | :-------------------------------------------------------------------------------------------------------------------------------- |
+|   12:15 – 13:45 | \
+Lunch Break |
 
 ###   Session 6: Interdisciplinarity and Scientific Impact
  Chair: Reinhilde Veugelers
@@ -297,8 +303,9 @@ Jacques Mairesse *CREST (ENSAE, Paris), UNU-MERIT (Maastricht University), NBER*
     Cornelia Lawson *(Manchester Institute of Innovation Research (MIOIR))*, Silvia Massini *(Alliance Manchester Business School)* and An Yu Chen *(Alliance Manchester Business School)* |   Fabio Montobio   |
 
 |   Time   | Event         |
-|   :----- | :------------ |
-|   15:15 – 15:30 | Coffee Break |
+|   :----- | :-------------------------------------------------------------------------------------------------------------------------------- |
+|   15:15 – 15:30 | \
+Coffee Break |
 
 ###   Session 7: Selection Bias and Opportunity in Academic Careers
  Chair: Patrick Llerena
@@ -311,7 +318,7 @@ Jacques Mairesse *CREST (ENSAE, Paris), UNU-MERIT (Maastricht University), NBER*
     Giacomo Gallegati *(Collegio Carlo Alberto, University of Turin, University Paris 1 Panthéon-Sorbonne)*, Luca Favero *(University of Essex)*, Agueda Solis Alonso *(Collegio Carlo Alberto, University of Turin)* and Enrique Carreras *(Collegio Carlo Alberto, University of Turin)* |   Jacques Mairesse |
 
 |   Time   | Event   |
-|   :----- | :------ |
+|   :----- | :------------------------------------------------------------------------------- |
 |   16:10 | Farewell |
 
 <br><br>
