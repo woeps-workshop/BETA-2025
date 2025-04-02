@@ -169,6 +169,8 @@ The **Bureau d'Économie Théorique et Appliquée (BETA)** and **University of S
 
 **Location:** Strasbourg, France
 
+**Room:** BETA -- Amphi Commun
+
 **Contact**: [woeps.contact@gmail.com](mailto:woeps.contact@gmail.com)
 
 </div>
@@ -231,9 +233,7 @@ Coffee Break |
 
 |   Time   | Event                                                                                                 |
 |   :----- | :---------------------------------------------------------------------------------------------------- |
-|   12:15 – 14:00 |   **A Tribute to Richard 'Dick' Nelson**  -- Patrick Llerena *(University of Strasbourg)* et al.  \
-\
-Lunch Break ( Resto Le 32 ) |
+|   12:15 – 14:00 |   Lunch Break ( Resto Le 32 ) |
 |   14:00 – 15:15 |   **Keynote Speech** \
 Jacques Mairesse *CREST (ENSAE, Paris), UNU-MERIT (Maastricht University), NBER*  |
 | 15:15 – 15:30 | \
@@ -262,6 +262,8 @@ Coffee Break |
 ###   Session 4: Knowledge Transfer and Collaborations
  Chair: Fabiana Visentin
 
+
+
 |   Time   | Paper                                                                                                                                                                                                                                                                      | Discussant      |
 |   :----- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------- |
 |   9:00 - 9:30 |   **Harnessing Academic Science for Corporate Technology: The Role of Interpersonal Networks and Brokers** \
@@ -285,10 +287,10 @@ Coffee Break |
 |   11:45 – 12:15 |   **Chat-PhD: The Role of LLM in Shaping the Research Practices and Productivity of Young Scholars** \
     Ivan Napoli *(Catholic University of Milan)*, Stefano Bianchini *(University of Strasbourg)*, Gabriele Pellegrino *(Catholic University of Milan)* and Pierre Pelletier *(University of Strasbourg)* |   Sotaro Shibayama |
 
-|   Time   | Event         |
+|   Time   | Event                                                                                                                             |
 |   :----- | :-------------------------------------------------------------------------------------------------------------------------------- |
-|   12:15 – 13:45 | \
-Lunch Break |
+|   12:15 - 12:45 | **A Tribute to Richard 'Dick' Nelson**  -- Patrick Llerena *(University of Strasbourg)* et al. |
+|   12:45 – 13:45 | Lunch Break |
 
 ###   Session 6: Interdisciplinarity and Scientific Impact
  Chair: Reinhilde Veugelers
